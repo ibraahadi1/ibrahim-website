@@ -280,34 +280,6 @@ img { max-width: 100%; display: block; }
   box-shadow: var(--shadow-lg);
 }
 
-.hero-status-badge {
-  position: absolute;
-  z-index: 2;
-  bottom: 8px;
-  left: 50%;
-  transform: translateX(-50%);
-  display: inline-flex;
-  align-items: center;
-  gap: 8px;
-  background: var(--surface);
-  border: 1px solid var(--border);
-  padding: 9px 16px;
-  border-radius: 999px;
-  font-size: 0.82rem;
-  font-weight: 600;
-  color: var(--text-dim);
-  box-shadow: var(--shadow-md);
-  white-space: nowrap;
-}
-
-.status-dot {
-  width: 8px;
-  height: 8px;
-  border-radius: 50%;
-  background: #22c55e;
-  box-shadow: 0 0 0 3px rgba(34, 197, 94, 0.2);
-}
-
 /* Sections */
 
 .section { padding: 88px 0; }
