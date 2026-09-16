@@ -16,7 +16,7 @@ navLinks.querySelectorAll('a').forEach((link) => {
 });
 
 const revealTargets = document.querySelectorAll(
-  '.section-title, .about-text, .regions-card, .stat, .timeline-item, .skill-card, .achievement-card, .edu-card, .subheading, .contact-lead, .contact-links'
+  '.section-title, .about-text, .regions-card, .stat, .timeline-item, .project-card, .skill-card, .cert-card, .achievement-card, .edu-card, .subheading, .contact-lead, .contact-links'
 );
 revealTargets.forEach((el) => el.classList.add('reveal'));
 
