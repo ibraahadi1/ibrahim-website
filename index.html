@@ -10,28 +10,24 @@
 <link rel="apple-touch-icon" href="assets/apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@600;700;800&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="styles.css">
 </head>
 <body>
 
-<canvas id="netCanvas" class="net-canvas"></canvas>
-<div class="bg-grid"></div>
-<div class="bg-glow"></div>
-
 <header class="site-header" id="top">
   <nav class="nav container">
-    <a href="#top" class="logo"><span class="logo-prompt">~/</span>ibrahim<span class="cursor">_</span></a>
+    <a href="#top" class="logo">Ibrahim Alhadi</a>
     <button class="nav-toggle" id="navToggle" aria-label="Toggle menu" aria-expanded="false">
       <span></span><span></span><span></span>
     </button>
     <ul class="nav-links" id="navLinks">
-      <li><a href="#about">about</a></li>
-      <li><a href="#experience">experience</a></li>
-      <li><a href="#skills">skills</a></li>
-      <li><a href="#achievements">achievements</a></li>
-      <li><a href="#education">education</a></li>
-      <li><a href="#contact" class="nav-cta">contact</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#achievements">Achievements</a></li>
+      <li><a href="#education">Education</a></li>
+      <li><a href="#contact" class="nav-cta">Contact</a></li>
     </ul>
   </nav>
 </header>
@@ -39,116 +35,66 @@
 <main>
 
   <section class="hero container">
-    <div class="terminal-window hero-terminal">
-      <div class="terminal-bar">
-        <span class="dot dot-red"></span><span class="dot dot-yellow"></span><span class="dot dot-green"></span>
-        <span class="terminal-title">ibrahim@infra — zsh</span>
+    <div class="hero-content">
+      <p class="eyebrow">IT Strategy &amp; Governance · Cloud Transformation</p>
+      <h1>Ibrahim Alhadi</h1>
+      <p class="hero-role">IT Infrastructure &amp; Operations Manager</p>
+      <p class="hero-tagline">Seasoned IT leader with 10+ years driving IT strategy, cloud transformation, and operational excellence across large-scale, multi-site environments in KSA, UAE, Bahrain, and Oman.</p>
+      <div class="hero-badges">
+        <span class="badge">PMP®</span>
+        <span class="badge">Cloud Architect Expert</span>
+        <span class="badge">ITIL</span>
+        <span class="badge">MBA</span>
+        <span class="badge">TOGAF</span>
+        <span class="badge">ERP</span>
       </div>
-      <div class="terminal-body">
-        <p class="term-line"><span class="prompt">$</span> whoami</p>
-        <h1>Ibrahim Alhadi</h1>
-        <p class="hero-role">// IT Infrastructure &amp; Operations Manager</p>
-
-        <p class="term-line"><span class="prompt">$</span> cat mission.txt</p>
-        <p class="hero-tagline">Seasoned IT leader with 10+ years driving IT strategy, cloud transformation, and operational excellence across large-scale, multi-site environments in KSA, UAE, Bahrain, and Oman.</p>
-
-        <p class="term-line"><span class="prompt">$</span> ls ./credentials --flags</p>
-        <div class="hero-badges">
-          <span class="badge">--pmp</span>
-          <span class="badge">--cloud-architect-expert</span>
-          <span class="badge">--itil</span>
-          <span class="badge">--mba</span>
-          <span class="badge">--togaf</span>
-          <span class="badge">--erp</span>
-        </div>
-
-        <div class="hero-actions">
-          <a href="#contact" class="btn btn-primary">./contact --me</a>
-          <a href="https://www.linkedin.com/in/ibraahadi" target="_blank" rel="noopener" class="btn btn-secondary">open linkedin.com/in/ibraahadi</a>
-        </div>
-
-        <p class="term-line hero-location-line"><span class="prompt">$</span> geoip --location <span class="output">📍 Jeddah, Saudi Arabia</span><span class="cursor">_</span></p>
+      <div class="hero-actions">
+        <a href="#contact" class="btn btn-primary">Get in touch</a>
+        <a href="https://www.linkedin.com/in/ibraahadi" target="_blank" rel="noopener" class="btn btn-secondary">View LinkedIn</a>
       </div>
+      <p class="hero-location">📍 Jeddah, Saudi Arabia</p>
     </div>
-
-    <div class="terminal-window sysinfo-card">
-      <div class="terminal-bar">
-        <span class="dot dot-red"></span><span class="dot dot-yellow"></span><span class="dot dot-green"></span>
-        <span class="terminal-title">neofetch</span>
-      </div>
-      <div class="terminal-body sysinfo-body">
-        <div class="sysinfo-avatar-wrap">
-          <img src="assets/profile.jpg" alt="Ibrahim Alhadi" class="sysinfo-avatar">
-          <span class="avatar-status"></span>
-        </div>
-        <ul class="sysinfo-list">
-          <li><span class="sysinfo-key">role</span><span class="sysinfo-val">infra &amp; cloud ops manager</span></li>
-          <li><span class="sysinfo-key">uptime</span><span class="sysinfo-val">10+ years</span></li>
-          <li><span class="sysinfo-key">users</span><span class="sysinfo-val">5,000+ managed</span></li>
-          <li><span class="sysinfo-key">subsidiaries</span><span class="sysinfo-val">6</span></li>
-          <li><span class="sysinfo-key">regions</span><span class="sysinfo-val">KSA · UAE · BH · OM</span></li>
-          <li><span class="sysinfo-key">stack</span><span class="sysinfo-val">Azure · AWS · OCI · GCP</span></li>
-          <li><span class="sysinfo-key">status</span><span class="sysinfo-val status-live"><span class="status-dot"></span>available for opportunities</span></li>
-        </ul>
-      </div>
+    <div class="hero-photo-wrap">
+      <div class="hero-photo-blob"></div>
+      <img src="assets/profile.jpg" alt="Ibrahim Alhadi" class="hero-photo">
+      <span class="hero-status-badge"><span class="status-dot"></span>Available for opportunities</span>
     </div>
   </section>
 
   <section class="section" id="about">
     <div class="container">
-      <p class="section-cmd">$ cat about.md</p>
-      <h2 class="section-title">
-        <svg class="section-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M2 12h4l2.5 7L14 5l2.5 7H22"/></svg>
-        <span class="section-num">01</span> About
-      </h2>
-
+      <p class="eyebrow-label">About</p>
+      <h2 class="section-title">A little about me</h2>
       <div class="about-grid">
-        <div class="about-main">
-          <p class="about-text">
-            Seasoned IT leader with 10+ years of progressive experience driving IT strategy, cloud transformation, and operational excellence across large-scale multi-site environments. Currently managing IT infrastructure and IT operations for <strong>5,000+ users across 6 subsidiaries</strong> at Alsulaiman Group (IKEA, Circle K, FLOW) spanning KSA, UAE, Bahrain, and Oman. Proven ability to align IT with business objectives, govern SaaS and cloud portfolios, build high-performing teams, and establish robust cybersecurity and compliance frameworks. Comfortable operating at executive level while delivering measurable results.
-          </p>
-          <div class="stats-grid">
-            <div class="stat"><span class="stat-dot"></span><span class="stat-num">10+</span><span class="stat-label">years_experience</span></div>
-            <div class="stat"><span class="stat-dot"></span><span class="stat-num">5,000+</span><span class="stat-label">users_supported</span></div>
-            <div class="stat"><span class="stat-dot"></span><span class="stat-num">6</span><span class="stat-label">subsidiaries</span></div>
-            <div class="stat"><span class="stat-dot"></span><span class="stat-num">4</span><span class="stat-label">countries_ksa_uae_bh_om</span></div>
+        <p class="about-text">
+          Seasoned IT leader with 10+ years of progressive experience driving IT strategy, cloud transformation, and operational excellence across large-scale multi-site environments. Currently managing IT infrastructure and IT operations for <strong>5,000+ users across 6 subsidiaries</strong> at Alsulaiman Group (IKEA, Circle K, FLOW) spanning KSA, UAE, Bahrain, and Oman. Proven ability to align IT with business objectives, govern SaaS and cloud portfolios, build high-performing teams, and establish robust cybersecurity and compliance frameworks. Comfortable operating at executive level while delivering measurable results.
+        </p>
+        <div class="regions-card">
+          <p class="regions-title">Operating across</p>
+          <div class="regions-list">
+            <span class="region-chip">🇸🇦 Saudi Arabia — HQ</span>
+            <span class="region-chip">🇦🇪 United Arab Emirates</span>
+            <span class="region-chip">🇧🇭 Bahrain</span>
+            <span class="region-chip">🇴🇲 Oman</span>
           </div>
         </div>
-
-        <div class="terminal-window network-map-card">
-          <div class="terminal-bar">
-            <span class="dot dot-red"></span><span class="dot dot-yellow"></span><span class="dot dot-green"></span>
-            <span class="terminal-title">network-map.sh --regions</span>
-          </div>
-          <div class="terminal-body network-map-body">
-            <svg class="network-map" viewBox="0 0 360 280" fill="none">
-              <line x1="150" y1="150" x2="270" y2="70" class="map-link"/>
-              <line x1="150" y1="150" x2="290" y2="150" class="map-link"/>
-              <line x1="150" y1="150" x2="260" y2="225" class="map-link"/>
-
-              <g class="map-node map-node-hq">
-                <circle cx="150" cy="150" r="20" class="map-ping"/>
-                <circle cx="150" cy="150" r="9" class="map-dot"/>
-              </g>
-              <text x="150" y="188" class="map-label map-label-hq" text-anchor="middle">KSA · HQ</text>
-
-              <g class="map-node">
-                <circle cx="270" cy="70" r="6" class="map-dot map-dot-alt"/>
-              </g>
-              <text x="270" y="54" class="map-label" text-anchor="middle">UAE</text>
-
-              <g class="map-node">
-                <circle cx="290" cy="150" r="6" class="map-dot map-dot-alt"/>
-              </g>
-              <text x="290" y="134" class="map-label" text-anchor="middle">Bahrain</text>
-
-              <g class="map-node">
-                <circle cx="260" cy="225" r="6" class="map-dot map-dot-alt"/>
-              </g>
-              <text x="260" y="245" class="map-label" text-anchor="middle">Oman</text>
-            </svg>
-            <p class="network-map-caption">4 regions · 6 subsidiaries · 24/7 uptime</p>
-          </div>
+      </div>
+      <div class="stats-grid">
+        <div class="stat">
+          <span class="stat-num">10+</span>
+          <span class="stat-label">Years of experience</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">5,000+</span>
+          <span class="stat-label">Users supported</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">6</span>
+          <span class="stat-label">Subsidiaries</span>
+        </div>
+        <div class="stat">
+          <span class="stat-num">4</span>
+          <span class="stat-label">Countries</span>
         </div>
       </div>
     </div>
@@ -156,17 +102,13 @@
 
   <section class="section alt" id="experience">
     <div class="container">
-      <p class="section-cmd">$ git log --oneline experience.log</p>
-      <h2 class="section-title">
-        <svg class="section-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><line x1="6" y1="3" x2="6" y2="15"/><circle cx="18" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><path d="M18 9a9 9 0 0 1-9 9"/></svg>
-        <span class="section-num">02</span> Experience
-      </h2>
+      <p class="eyebrow-label">Experience</p>
+      <h2 class="section-title">Where I've made an impact</h2>
       <div class="timeline">
 
         <div class="timeline-item">
           <div class="timeline-dot"></div>
           <div class="timeline-content">
-            <span class="git-branch">⎇ main / it-infra-ops-manager</span>
             <div class="timeline-head">
               <h3>IT Infrastructure &amp; Operations Manager</h3>
               <span class="timeline-date">Feb 2024 – Present</span>
@@ -191,7 +133,6 @@
         <div class="timeline-item">
           <div class="timeline-dot"></div>
           <div class="timeline-content">
-            <span class="git-branch">⎇ main / it-infra-cloud-lead</span>
             <div class="timeline-head">
               <h3>IT Infrastructure &amp; Cloud Team Lead</h3>
               <span class="timeline-date">Mar 2019 – Feb 2024</span>
@@ -213,7 +154,6 @@
         <div class="timeline-item">
           <div class="timeline-dot"></div>
           <div class="timeline-content">
-            <span class="git-branch">⎇ main / it-system-admin</span>
             <div class="timeline-head">
               <h3>IT System Administrator</h3>
               <span class="timeline-date">Aug 2017 – Mar 2019</span>
@@ -230,7 +170,6 @@
         <div class="timeline-item">
           <div class="timeline-dot"></div>
           <div class="timeline-content">
-            <span class="git-branch">⎇ main / it-service-excellence</span>
             <div class="timeline-head">
               <h3>IT Service Excellence Specialist</h3>
               <span class="timeline-date">Apr 2016 – Aug 2017</span>
@@ -250,11 +189,8 @@
 
   <section class="section" id="skills">
     <div class="container">
-      <p class="section-cmd">$ cat skills.yaml</p>
-      <h2 class="section-title">
-        <svg class="section-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="7" y="7" width="10" height="10" rx="1"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M5 5l2 2M17 17l2 2M19 5l-2 2M7 17l-2 2"/></svg>
-        <span class="section-num">03</span> Skills
-      </h2>
+      <p class="eyebrow-label">Skills</p>
+      <h2 class="section-title">What I bring to the table</h2>
 
       <h3 class="subheading">Core Competencies</h3>
       <div class="tag-cloud">
@@ -280,37 +216,37 @@
       <h3 class="subheading">Technical Expertise</h3>
       <div class="skills-grid">
         <div class="skill-card">
-          <svg class="skill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M17.5 19H8a5 5 0 1 1 1.3-9.8A6 6 0 0 1 21 11.5a4 4 0 0 1-.5 7.5Z"/></svg>
+          <span class="skill-icon-wrap"><svg class="skill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M17.5 19H8a5 5 0 1 1 1.3-9.8A6 6 0 0 1 21 11.5a4 4 0 0 1-.5 7.5Z"/></svg></span>
           <h4>Cloud</h4>
           <p>Azure (IaaS/PaaS/SaaS), AWS, OCI, GCP</p>
         </div>
         <div class="skill-card">
-          <svg class="skill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1"/><rect x="14" y="3" width="7" height="7" rx="1"/><rect x="3" y="14" width="7" height="7" rx="1"/><rect x="14" y="14" width="7" height="7" rx="1"/></svg>
+          <span class="skill-icon-wrap"><svg class="skill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="3" width="7" height="7" rx="1.5"/><rect x="14" y="3" width="7" height="7" rx="1.5"/><rect x="3" y="14" width="7" height="7" rx="1.5"/><rect x="14" y="14" width="7" height="7" rx="1.5"/></svg></span>
           <h4>SaaS &amp; Productivity</h4>
           <p>Microsoft 365, Exchange Online, SharePoint, Teams</p>
         </div>
         <div class="skill-card">
-          <svg class="skill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 4 6v6c0 4.5 3.2 7.7 8 9 4.8-1.3 8-4.5 8-9V6l-8-3Z"/><path d="m9 12 2 2 4-4"/></svg>
+          <span class="skill-icon-wrap"><svg class="skill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><path d="M12 3 4 6v6c0 4.5 3.2 7.7 8 9 4.8-1.3 8-4.5 8-9V6l-8-3Z"/><path d="m9 12 2 2 4-4"/></svg></span>
           <h4>Identity &amp; Security</h4>
           <p>Entra ID, Conditional Access, Zero Trust, MIM</p>
         </div>
         <div class="skill-card">
-          <svg class="skill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M7 3v4M17 3v4M4 9h16M6 5h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V7a2 2 0 0 1 2-2Z"/><path d="M9 13h.01M12 13h.01M15 13h.01M9 16h.01M12 16h.01"/></svg>
+          <span class="skill-icon-wrap"><svg class="skill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="3" y="4" width="18" height="16" rx="2"/><path d="M3 9h18M8 4v3"/><path d="M9 13h.01M12 13h.01M15 13h.01M9 16h.01M12 16h.01"/></svg></span>
           <h4>ITSM</h4>
           <p>SolarWinds, ManageEngine, SCSM, ServiceDesk</p>
         </div>
         <div class="skill-card">
-          <svg class="skill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="8" ry="3"/><path d="M4 5v6c0 1.7 3.6 3 8 3s8-1.3 8-3V5"/><path d="M4 11v6c0 1.7 3.6 3 8 3s8-1.3 8-3v-6"/></svg>
+          <span class="skill-icon-wrap"><svg class="skill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="8" ry="3"/><path d="M4 5v6c0 1.7 3.6 3 8 3s8-1.3 8-3V5"/><path d="M4 11v6c0 1.7 3.6 3 8 3s8-1.3 8-3v-6"/></svg></span>
           <h4>Virtualisation</h4>
           <p>Hyper-V, VMware, AVD/VDI</p>
         </div>
         <div class="skill-card">
-          <svg class="skill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6"/><path d="M9 2v2M15 2v2M9 20v2M15 20v2M2 9h2M2 15h2M20 9h2M20 15h2"/></svg>
+          <span class="skill-icon-wrap"><svg class="skill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><rect x="4" y="4" width="16" height="16" rx="2"/><rect x="9" y="9" width="6" height="6"/><path d="M9 2v2M15 2v2M9 20v2M15 20v2M2 9h2M2 15h2M20 9h2M20 15h2"/></svg></span>
           <h4>Endpoint &amp; Automation</h4>
           <p>SCCM, ManageEngine, Intune, PowerShell</p>
         </div>
         <div class="skill-card">
-          <svg class="skill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="8" ry="3"/><path d="M4 5v14c0 1.7 3.6 3 8 3s8-1.3 8-3V5"/><path d="M4 12c0 1.7 3.6 3 8 3s8-1.3 8-3"/></svg>
+          <span class="skill-icon-wrap"><svg class="skill-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"><ellipse cx="12" cy="5" rx="8" ry="3"/><path d="M4 5v14c0 1.7 3.6 3 8 3s8-1.3 8-3V5"/><path d="M4 12c0 1.7 3.6 3 8 3s8-1.3 8-3"/></svg></span>
           <h4>Backup &amp; DR</h4>
           <p>Veeam (on-prem, M365, cloud)</p>
         </div>
@@ -318,55 +254,52 @@
 
       <h3 class="subheading">Certifications</h3>
       <div class="tag-cloud">
-        <span class="tag cert">PMP® – Project Management Professional</span>
-        <span class="tag cert">Microsoft Azure Solutions Architect Expert (AZ-305)</span>
-        <span class="tag cert">Azure Administrator Associate (AZ-104)</span>
-        <span class="tag cert">CompTIA Security+</span>
-        <span class="tag cert">CompTIA Network+</span>
-        <span class="tag cert">CCNA</span>
-        <span class="tag cert">ITIL Foundation</span>
+        <span class="tag cert">✓ PMP® – Project Management Professional</span>
+        <span class="tag cert">✓ Microsoft Azure Solutions Architect Expert (AZ-305)</span>
+        <span class="tag cert">✓ Azure Administrator Associate (AZ-104)</span>
+        <span class="tag cert">✓ CompTIA Security+</span>
+        <span class="tag cert">✓ CompTIA Network+</span>
+        <span class="tag cert">✓ CCNA</span>
+        <span class="tag cert">✓ ITIL Foundation</span>
       </div>
     </div>
   </section>
 
   <section class="section alt" id="achievements">
     <div class="container">
-      <p class="section-cmd">$ tail -f achievements.log</p>
-      <h2 class="section-title">
-        <svg class="section-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M8 21h8M12 17v4M6 4h12v4a6 6 0 0 1-12 0V4Z"/><path d="M6 6H3v1a4 4 0 0 0 3.5 4M18 6h3v1a4 4 0 0 1-3.5 4"/></svg>
-        <span class="section-num">04</span> Key Achievements
-      </h2>
+      <p class="eyebrow-label">Achievements</p>
+      <h2 class="section-title">Highlights worth mentioning</h2>
       <div class="achievements-grid">
         <div class="achievement-card">
-          <span class="log-tag log-cloud">[MIGRATION]</span>
+          <span class="achv-chip achv-migration">Migration</span>
           <p>Migrated 2,000+ mailboxes from on-premises Exchange 2013 to Microsoft 365, with zero business disruption.</p>
         </div>
         <div class="achievement-card">
-          <span class="log-tag log-security">[SECURITY]</span>
+          <span class="achv-chip achv-security">Security</span>
           <p>Led full Microsoft 365 security hardening program (SPF, DMARC, DKIM, Conditional Access) across all subsidiaries.</p>
         </div>
         <div class="achievement-card">
-          <span class="log-tag log-cloud">[CLOUD]</span>
+          <span class="achv-chip achv-cloud">Cloud</span>
           <p>Successfully migrated on-premises workloads (VMs, SQL, web services) to Azure, improving scalability and reducing infrastructure costs.</p>
         </div>
         <div class="achievement-card">
-          <span class="log-tag log-infra">[INFRA]</span>
+          <span class="achv-chip achv-infra">Infrastructure</span>
           <p>Built multiple sites end-to-end (Datacenter, Hyper-V, Domain Services, Network and Security) for large IKEA stores across Saudi Arabia and Bahrain, and the Alsulaiman HQ Tower.</p>
         </div>
         <div class="achievement-card">
-          <span class="log-tag log-cloud">[CLOUD]</span>
+          <span class="achv-chip achv-cloud">Cloud</span>
           <p>Established the cloud setup and architecture for Alsulaiman Group's Azure environment, enabling scalable, secure, and cost-optimised operations across all subsidiaries.</p>
         </div>
         <div class="achievement-card">
-          <span class="log-tag log-monitor">[MONITORING]</span>
+          <span class="achv-chip achv-monitor">Monitoring</span>
           <p>Delivered a SCOM monitoring environment providing real-time visibility across the group.</p>
         </div>
         <div class="achievement-card">
-          <span class="log-tag log-collab">[COLLAB]</span>
+          <span class="achv-chip achv-collab">Collaboration</span>
           <p>Drove company-wide Teams adoption including external calling integration via Ribbon Voice Gateway across 5 sites.</p>
         </div>
         <div class="achievement-card">
-          <span class="log-tag log-automation">[AUTOMATION]</span>
+          <span class="achv-chip achv-automation">Automation</span>
           <p>Built and deployed a SCCM 2019 environment with an automated Windows 10/11 imaging pipeline serving 2,000+ devices.</p>
         </div>
       </div>
@@ -375,11 +308,8 @@
 
   <section class="section" id="education">
     <div class="container">
-      <p class="section-cmd">$ cat education.md</p>
-      <h2 class="section-title">
-        <svg class="section-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M2 9l10-5 10 5-10 5-10-5Z"/><path d="M6 11v5c0 1.5 2.5 3 6 3s6-1.5 6-3v-5"/><path d="M22 9v7"/></svg>
-        <span class="section-num">05</span> Education
-      </h2>
+      <p class="eyebrow-label">Education</p>
+      <h2 class="section-title">Academic background</h2>
       <div class="education-grid">
         <div class="edu-card">
           <h3>Master of Global Business Administration (MBA)</h3>
@@ -402,31 +332,19 @@
 
   <section class="section contact-section" id="contact">
     <div class="container contact-container">
-      <p class="section-cmd">$ ./contact.sh --reach-out</p>
-      <h2 class="section-title">
-        <svg class="section-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m5 8 5 4-5 4M12 16h7"/></svg>
-        <span class="section-num">06</span> Get in Touch
-      </h2>
+      <p class="eyebrow-label">Contact</p>
+      <h2 class="section-title">Let's get in touch</h2>
       <p class="contact-lead">Open to conversations on IT strategy, cloud transformation, and infrastructure leadership.</p>
-      <div class="terminal-window contact-terminal">
-        <div class="terminal-bar">
-          <span class="dot dot-red"></span><span class="dot dot-yellow"></span><span class="dot dot-green"></span>
-          <span class="terminal-title">contact.sh</span>
-        </div>
-        <div class="terminal-body">
-          <div class="contact-links">
-            <a href="mailto:ibraahadi1@gmail.com" class="contact-link">
-              <span class="contact-icon">✉</span> ibraahadi1@gmail.com
-            </a>
-            <a href="https://www.linkedin.com/in/ibraahadi" target="_blank" rel="noopener" class="contact-link">
-              <span class="contact-icon">in</span> linkedin.com/in/ibraahadi
-            </a>
-            <span class="contact-link contact-static">
-              <span class="contact-icon">📍</span> Jeddah, Saudi Arabia
-            </span>
-          </div>
-          <p class="term-line contact-done"><span class="prompt">$</span> <span class="output">connection ready.</span><span class="cursor">_</span></p>
-        </div>
+      <div class="contact-links">
+        <a href="mailto:ibraahadi1@gmail.com" class="contact-link">
+          <span class="contact-icon">✉</span> ibraahadi1@gmail.com
+        </a>
+        <a href="https://www.linkedin.com/in/ibraahadi" target="_blank" rel="noopener" class="contact-link">
+          <span class="contact-icon">in</span> linkedin.com/in/ibraahadi
+        </a>
+        <span class="contact-link contact-static">
+          <span class="contact-icon">📍</span> Jeddah, Saudi Arabia
+        </span>
       </div>
     </div>
   </section>
